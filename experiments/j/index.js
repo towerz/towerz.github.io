@@ -17,7 +17,8 @@ $(document).ready(function() {
       $el.find('.result').text('Installed')
     })
 
-    iframe.attr('src', 'waze://?ll=0.0')
+    iframe.attr('sandbox', '')
+    iframe.attr('src', $el.attr('data-url'))
     $el.append(iframe)
     timeoutId = this.checkTimeout = setTimeout(function() {
       clearIframe()
