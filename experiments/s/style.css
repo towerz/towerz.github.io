@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+main {
+  margin: 48px 48px 16px 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-shadow: 1px 1px 4px rgba(255,255,255,0.5);
+}
+
+.app-list {
+  margin: 8px;
+}
+
+.app-list li {
+  list-style: none;
+  padding: 8px 4px;
+}
+
+.app-list li iframe {
+  border: 0;
+  width: 0;
+  height: 0;
+}
